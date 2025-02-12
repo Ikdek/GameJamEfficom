@@ -21,5 +21,6 @@
     {"name":"spr_char_back_run","order":1,"path":"sprites/spr_char_back_run/spr_char_back_run.yy",},
     {"name":"spr_char_left_run","order":3,"path":"sprites/spr_char_left_run/spr_char_left_run.yy",},
     {"name":"spr_char_right_run","order":2,"path":"sprites/spr_char_right_run/spr_char_right_run.yy",},
+    {"name":"Sprite6","order":4,"path":"sprites/Sprite6/Sprite6.yy",},
   ],
 }
