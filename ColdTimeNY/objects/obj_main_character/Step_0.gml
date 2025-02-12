@@ -1,5 +1,6 @@
 var move_x = 0;
 var move_y = 0;
+isTimeStopped = true;
 
 if (keyboard_check(vk_left))  move_x = -1;
 if (keyboard_check(vk_right)) move_x = 1;
@@ -15,13 +16,16 @@ if (longueur > 0) {
 x += move_x * vitesse;
 y += move_y * vitesse;
 
-if (move_x < 0)  sprite_index = sprite_gauche;
-if (move_x > 0)  sprite_index = sprite_droite;
-if (move_y < 0)  sprite_index = sprite_haut;
-if (move_y > 0)  sprite_index = sprite_bas;
+
 
 if (move_x == 0 && move_y == 0) {
-    game_set_speed(1, gamespeed_fps); 
+    isTimeStopped = true;
+	image_speed = 0;
 } else {
-    game_set_speed(20, gamespeed_fps); 
+	image_speed = 5;
+	isTimeStopped = false;
+    if (move_x < 0)  sprite_index = sprite_gauche;
+	if (move_x > 0)  sprite_index = sprite_droite;
+	if (move_y < 0)  sprite_index = sprite_haut;
+	if (move_y > 0)  sprite_index = sprite_bas;
 }
