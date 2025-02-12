@@ -21,3 +21,13 @@ if (_yinput > 0) sprite_index = sprite_haut;
 if (_yinput < 0) sprite_index = sprite_bas;
 
 
+if (move_x == 0 && move_y == 0) {
+    game_set_speed(1, gamespeed_fps); 
+} else {
+	image_speed = 1;
+	isTimeStopped = false;
+    if (move_x < 0)  sprite_index = sprite_gauche;
+	if (move_x > 0)  sprite_index = sprite_droite;
+	if (move_y < 0)  sprite_index = sprite_haut;
+	if (move_y > 0)  sprite_index = sprite_bas;
+}
