@@ -30,5 +30,6 @@
     {"name":"spr_en2_facing_run","order":8,"path":"sprites/spr_en2_facing_run/spr_en2_facing_run.yy",},
     {"name":"spr_en2_left_run","order":9,"path":"sprites/spr_en2_left_run/spr_en2_left_run.yy",},
     {"name":"spr_en2_right_run","order":10,"path":"sprites/spr_en2_right_run/spr_en2_right_run.yy",},
+    {"name":"spr_heart","order":12,"path":"sprites/spr_heart/spr_heart.yy",},
   ],
 }

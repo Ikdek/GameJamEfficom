@@ -1,7 +1,7 @@
 var joueur = obj_main_character; 
 
 	if (!joueur.isTimeStopped) {
-		image_speed = 5;
+		
 		var dist = point_distance(x, y, joueur.x, joueur.y);
 
 		if (dist < distance_detection) {
@@ -20,6 +20,8 @@ var joueur = obj_main_character;
         if (direction_x > 0)  sprite_index = sprite_droite;
         if (direction_y < 0)  sprite_index = sprite_haut;
         if (direction_y > 0)  sprite_index = sprite_bas;
+		
+		if (direction_x != 0 | direction_y) image_speed = 1;
 		}
 	}else
 	{
