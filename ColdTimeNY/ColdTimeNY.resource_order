@@ -17,6 +17,7 @@
     {"name":"Tile sets","order":2,"path":"folders/Tile sets.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_ennemy_1","order":1,"path":"objects/obj_ennemy_1/obj_ennemy_1.yy",},
     {"name":"spr_char_back_run","order":1,"path":"sprites/spr_char_back_run/spr_char_back_run.yy",},
     {"name":"spr_char_left_run","order":3,"path":"sprites/spr_char_left_run/spr_char_left_run.yy",},
     {"name":"spr_char_right_run","order":2,"path":"sprites/spr_char_right_run/spr_char_right_run.yy",},

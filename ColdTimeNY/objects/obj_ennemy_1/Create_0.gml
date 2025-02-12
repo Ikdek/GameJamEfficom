@@ -1,6 +1,6 @@
-vitesse = 10;
+vitesse = 8;
+distance_detection = 200;
 
-isTimeStopped = true;
 sprite_bas = spr_char_facing_run;
 sprite_haut = spr_char_back_run;
 sprite_gauche = spr_char_left_run;
