@@ -1,6 +1,6 @@
 {
   "$GMProject":"",
-  "%Name":"ColdTimeNY",
+  "%Name":"backupProject",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -32,7 +32,7 @@
   "MetaData":{
     "IDEVersion":"2024.11.0.179",
   },
-  "name":"ColdTimeNY",
+  "name":"backupProject",
   "resources":[
     {"id":{"name":"obj_main_character","path":"objects/obj_main_character/obj_main_character.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
