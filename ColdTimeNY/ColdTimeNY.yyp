@@ -35,6 +35,7 @@
   "name":"ColdTimeNY",
   "resources":[
     {"id":{"name":"obj_main_character","path":"objects/obj_main_character/obj_main_character.yy",},},
+    {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_char_back_run","path":"sprites/spr_char_back_run/spr_char_back_run.yy",},},
     {"id":{"name":"spr_char_facing_run","path":"sprites/spr_char_facing_run/spr_char_facing_run.yy",},},
