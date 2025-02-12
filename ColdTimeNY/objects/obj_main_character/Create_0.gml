@@ -1,4 +1,4 @@
-vitesse = 10;
+vitesse = 3;
 
 isTimeStopped = true;
 sprite_bas = spr_char_facing_run;

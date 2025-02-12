@@ -18,8 +18,17 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_ennemy_1","order":1,"path":"objects/obj_ennemy_1/obj_ennemy_1.yy",},
+    {"name":"obj_ennemy_2","order":2,"path":"objects/obj_ennemy_2/obj_ennemy_2.yy",},
     {"name":"spr_char_back_run","order":1,"path":"sprites/spr_char_back_run/spr_char_back_run.yy",},
     {"name":"spr_char_left_run","order":3,"path":"sprites/spr_char_left_run/spr_char_left_run.yy",},
     {"name":"spr_char_right_run","order":2,"path":"sprites/spr_char_right_run/spr_char_right_run.yy",},
+    {"name":"spr_en1_back_run","order":5,"path":"sprites/spr_en1_back_run/spr_en1_back_run.yy",},
+    {"name":"spr_en1_facing_run","order":4,"path":"sprites/spr_en1_facing_run/spr_en1_facing_run.yy",},
+    {"name":"spr_en1_left_run","order":7,"path":"sprites/spr_en1_left_run/spr_en1_left_run.yy",},
+    {"name":"spr_en1_right_run","order":6,"path":"sprites/spr_en1_right_run/spr_en1_right_run.yy",},
+    {"name":"spr_en2_back_run","order":11,"path":"sprites/spr_en2_back_run/spr_en2_back_run.yy",},
+    {"name":"spr_en2_facing_run","order":8,"path":"sprites/spr_en2_facing_run/spr_en2_facing_run.yy",},
+    {"name":"spr_en2_left_run","order":9,"path":"sprites/spr_en2_left_run/spr_en2_left_run.yy",},
+    {"name":"spr_en2_right_run","order":10,"path":"sprites/spr_en2_right_run/spr_en2_right_run.yy",},
   ],
 }
