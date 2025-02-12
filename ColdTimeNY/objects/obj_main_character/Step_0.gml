@@ -22,7 +22,7 @@ if (move_x == 0 && move_y == 0) {
     isTimeStopped = true;
 	image_speed = 0;
 } else {
-	image_speed = 5;
+	image_speed = 1;
 	isTimeStopped = false;
     if (move_x < 0)  sprite_index = sprite_gauche;
 	if (move_x > 0)  sprite_index = sprite_droite;
