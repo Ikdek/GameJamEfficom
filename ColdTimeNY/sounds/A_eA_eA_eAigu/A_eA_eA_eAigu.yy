@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.194286,
+  "duration":0.417959,
   "name":"A_eA_eA_eAigu",
   "parent":{
     "name":"Sons",
