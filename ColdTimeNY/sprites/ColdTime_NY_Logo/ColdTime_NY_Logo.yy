@@ -1,27 +1,27 @@
 {
   "$GMSprite":"",
-  "%Name":"BackgroundMainMenu",
+  "%Name":"ColdTime_NY_Logo",
   "bboxMode":0,
-  "bbox_bottom":199,
-  "bbox_left":0,
-  "bbox_right":199,
-  "bbox_top":0,
+  "bbox_bottom":213,
+  "bbox_left":46,
+  "bbox_right":977,
+  "bbox_top":46,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0993997e-b2ca-43da-9b68-b521eaae98d8","name":"0993997e-b2ca-43da-9b68-b521eaae98d8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"122dcb14-96d2-4c16-a8ab-c0b87480b891","name":"122dcb14-96d2-4c16-a8ab-c0b87480b891","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":200,
+  "height":260,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"fe27e7a7-b8fa-4d92-935e-9614b688a3ac","blendMode":0,"displayName":"default","isLocked":false,"name":"fe27e7a7-b8fa-4d92-935e-9614b688a3ac","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"7b05cc73-ba18-4de9-b02f-4ad8a6c69613","blendMode":0,"displayName":"default","isLocked":false,"name":"7b05cc73-ba18-4de9-b02f-4ad8a6c69613","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"BackgroundMainMenu",
+  "name":"ColdTime_NY_Logo",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"BackgroundMainMenu",
+    "%Name":"ColdTime_NY_Logo",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"BackgroundMainMenu",
+    "name":"ColdTime_NY_Logo",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,9 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0993997e-b2ca-43da-9b68-b521eaae98d8","path":"sprites/BackgroundMainMenu/BackgroundMainMenu.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"af1896b8-183c-4b78-81ad-b174e08c256a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"122dcb14-96d2-4c16-a8ab-c0b87480b891","path":"sprites/ColdTime_NY_Logo/ColdTime_NY_Logo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"abeeec9f-f0f3-4a59-b29a-6eadac4d9fe7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -87,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":200,
+  "width":1024,
 }
