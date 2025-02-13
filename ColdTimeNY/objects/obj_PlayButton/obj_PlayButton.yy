@@ -34,8 +34,10 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Playbutton",
-    "path":"sprites/Playbutton/Playbutton.yy",
+
+    "name":"PlayButton",
+    "path":"sprites/PlayButton/PlayButton.yy",
+
   },
   "spriteMaskId":null,
   "visible":true,
