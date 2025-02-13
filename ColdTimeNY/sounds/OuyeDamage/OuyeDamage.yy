@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.298776,
+  "duration":0.444082,
   "name":"OuyeDamage",
   "parent":{
     "name":"Sons",

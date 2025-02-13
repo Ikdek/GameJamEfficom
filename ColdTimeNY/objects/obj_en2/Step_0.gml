@@ -28,6 +28,7 @@ if (obj_main_character.isTimeStopped){
 
 if (place_meeting(x, y, obj_bullet)) {
     vie_en2 -= 1; 
+	audio_play_sound(A_eA_eA_eSound,1,false)
 }
 
 

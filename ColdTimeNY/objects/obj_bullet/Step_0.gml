@@ -3,6 +3,7 @@ if (x < 0 || x > room_width || y < 0 || y > room_height) {
 }
 
 if (place_meeting(x, y, obj_wall)) {
+	audio_play_sound(WallHit,1,false);
     if (bounce_count < max_bounces) {
         direction += 180;
         bounce_count += 1;

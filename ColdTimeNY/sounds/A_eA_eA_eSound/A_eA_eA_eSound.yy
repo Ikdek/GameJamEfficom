@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.168163,
+  "duration":0.470204,
   "name":"A_eA_eA_eSound",
   "parent":{
     "name":"Sons",
