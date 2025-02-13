@@ -1,10 +1,10 @@
-var key_left = keyboard_check(vk_left);
-var key_right = keyboard_check(vk_right);
-var key_up = keyboard_check(vk_up);
-var key_down = keyboard_check(vk_down);
+var key_left = keyboard_check(ord("Q"));
+var key_right = keyboard_check(ord("D"));
+var key_up = keyboard_check(ord("Z"));
+var key_down = keyboard_check(ord("S"));
 
 var _xinput = key_right - key_left;
-var _yinput = key_down - key_up; // Inversion corrigée
+var _yinput = key_down - key_up;
 
 if (!place_meeting(x + _xinput * vitesse, y, obj_wall)) {
     x += _xinput * vitesse;
@@ -26,3 +26,5 @@ if (_xinput == 0 && _yinput == 0) {
     image_speed = 1;
     isTimeStopped = false;
 }
+
+if (vie == 0) game_restart();

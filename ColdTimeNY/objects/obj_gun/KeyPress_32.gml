@@ -1,4 +1,4 @@
-var bullet = instance_create_layer(x, y, "Instances_1", obj_bullet);
+var bullet = instance_create_layer(x, y, "MainCharacter", obj_bullet);
 bullet.direction = image_angle;
 
 if (obj_main_character.isTimeStopped){
