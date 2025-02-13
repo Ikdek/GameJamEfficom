@@ -27,4 +27,4 @@ if (_xinput == 0 && _yinput == 0) {
     isTimeStopped = false;
 }
 
-if (vie == 0) game_restart();
+if (vie < 1) game_restart();

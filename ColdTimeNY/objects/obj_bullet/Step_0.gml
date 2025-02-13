@@ -11,15 +11,12 @@ if (place_meeting(x, y, obj_wall)) {
     }
 }
 
-if (place_meeting(x, y, obj_main_character) & bounce_count != 0 ) {
+if (place_meeting(x, y, obj_main_character)) {
 	obj_main_character.vie -= 1;
 	instance_destroy();
 }
 
-if (place_meeting(x, y, obj_en1)) {
-	obj_en1.vie_en1 -= 1;
-	instance_destroy();
-}
+
 
 
 if (obj_main_character.isTimeStopped){
