@@ -13,6 +13,7 @@ if (place_meeting(x, y, obj_wall)) {
 
 if (place_meeting(x, y, obj_main_character)) {
 	obj_main_character.vie -= 1;
+	audio_play_sound(OuyeDamage,1,false);
 	instance_destroy();
 }
 
