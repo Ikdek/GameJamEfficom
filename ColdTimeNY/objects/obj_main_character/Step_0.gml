@@ -21,6 +21,7 @@ if (_yinput > 0) sprite_index = sprite_bas;
 
 if (_xinput == 0 && _yinput == 0) {
     image_speed = 0; 
+	isTimeStopped = true;
 } else {
     image_speed = 1;
     isTimeStopped = false;
