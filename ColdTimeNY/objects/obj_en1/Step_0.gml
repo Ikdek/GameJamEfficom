@@ -20,14 +20,35 @@ if (obj_main_character.isTimeStopped) {
         }
 
         var move_direction = point_direction(x, y, player.x, player.y);
-        x += lengthdir_x(move_speed, move_direction);
-        y += lengthdir_y(move_speed, move_direction);
+        var new_x = x + lengthdir_x(move_speed, move_direction);
+        var new_y = y + lengthdir_y(move_speed, move_direction);
+
+        if (!place_meeting(new_x, new_y, obj_wall)) {
+            x = new_x;
+            y = new_y;
+        } else {
+            var angle_offset = 180;
+            var new_direction1 = move_direction - angle_offset;
+            var new_direction2 = move_direction + angle_offset;
+
+            var new_x1 = x + lengthdir_x(move_speed, new_direction1);
+            var new_y1 = y + lengthdir_y(move_speed, new_direction1);
+            var new_x2 = x + lengthdir_x(move_speed, new_direction2);
+            var new_y2 = y + lengthdir_y(move_speed, new_direction2);
+
+            if (!place_meeting(new_x1, new_y1, obj_wall)) {
+                x = new_x1;
+                y = new_y1;
+            } else if (!place_meeting(new_x2, new_y2, obj_wall)) {
+                x = new_x2;
+                y = new_y2;
+            }
+        }
     }
 }
 
 if (place_meeting(x, y, obj_bullet)) {
-    vie_en1 -= 1; 
+    vie_en1 -= 1;
 }
-
 
 if (vie_en1 <= 0) instance_destroy();
