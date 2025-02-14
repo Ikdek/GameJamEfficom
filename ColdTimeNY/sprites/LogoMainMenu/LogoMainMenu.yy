@@ -1,28 +1,27 @@
 {
   "$GMSprite":"",
-  "%Name":"QuitButton",
+  "%Name":"LogoMainMenu",
   "bboxMode":0,
-  "bbox_bottom":13,
-  "bbox_left":0,
-  "bbox_right":33,
-  "bbox_top":2,
+  "bbox_bottom":213,
+  "bbox_left":46,
+  "bbox_right":977,
+  "bbox_top":46,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"38ad9e9a-212f-4b0c-b97d-8dfd285dccaf","name":"38ad9e9a-212f-4b0c-b97d-8dfd285dccaf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"99d85fcb-0fa7-4518-b71f-a0b1a6ce9148","name":"99d85fcb-0fa7-4518-b71f-a0b1a6ce9148","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"2c454ead-d7b3-4a73-a973-aa47a204ec7d","name":"2c454ead-d7b3-4a73-a973-aa47a204ec7d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":16,
+  "height":260,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"58f092b0-9162-4b84-ba38-80ed8e3dec50","blendMode":0,"displayName":"default","isLocked":false,"name":"58f092b0-9162-4b84-ba38-80ed8e3dec50","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"59ec6163-b54d-4925-abb4-e881cf66d294","blendMode":0,"displayName":"default","isLocked":false,"name":"59ec6163-b54d-4925-abb4-e881cf66d294","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"QuitButton",
+  "name":"LogoMainMenu",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -34,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"QuitButton",
+    "%Name":"LogoMainMenu",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -50,7 +49,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":2.0,
+    "length":1.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -58,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"QuitButton",
+    "name":"LogoMainMenu",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -70,11 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"38ad9e9a-212f-4b0c-b97d-8dfd285dccaf","path":"sprites/QuitButton/QuitButton.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"bb807b02-d3a3-44aa-89a5-7570bc6b394b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"99d85fcb-0fa7-4518-b71f-a0b1a6ce9148","path":"sprites/QuitButton/QuitButton.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8dbe4aa6-ef0c-4e5b-a3eb-bfa98d230fa9","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2c454ead-d7b3-4a73-a973-aa47a204ec7d","path":"sprites/LogoMainMenu/LogoMainMenu.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"783f7608-a0e7-4adf-9bd5-cf340c1022cf","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -90,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":34,
+  "width":1024,
 }

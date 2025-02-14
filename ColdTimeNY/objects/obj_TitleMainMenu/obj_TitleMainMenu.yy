@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"ColdTime_NY_Logo",
-    "path":"sprites/ColdTime_NY_Logo/ColdTime_NY_Logo.yy",
+    "name":"LogoMainMenu",
+    "path":"sprites/LogoMainMenu/LogoMainMenu.yy",
   },
   "spriteMaskId":null,
   "visible":true,
