@@ -1,6 +1,6 @@
 {
   "$GMProject":"",
-  "%Name":"backupProject",
+  "%Name":"SaveBackProjectGame",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -32,7 +32,7 @@
   "MetaData":{
     "IDEVersion":"2024.11.0.179",
   },
-  "name":"backupProject",
+  "name":"SaveBackProjectGame",
   "resources":[
     {"id":{"name":"fnt_button","path":"fonts/fnt_button/fnt_button.yy",},},
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
@@ -47,6 +47,7 @@
     {"id":{"name":"obj_main_character","path":"objects/obj_main_character/obj_main_character.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"obj_NextLvl","path":"objects/obj_NextLvl/obj_NextLvl.yy",},},
+    {"id":{"name":"obj_Music2","path":"objects/obj_Music2/obj_Music2.yy",},},
     {"id":{"name":"obj_PlayButton","path":"objects/obj_PlayButton/obj_PlayButton.yy",},},
     {"id":{"name":"obj_QuitButton","path":"objects/obj_QuitButton/obj_QuitButton.yy",},},
     {"id":{"name":"obj_TitleMainMenu","path":"objects/obj_TitleMainMenu/obj_TitleMainMenu.yy",},},
@@ -56,6 +57,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"Shader1","path":"shaders/Shader1/Shader1.yy",},},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"A_eA_eA_eAigu","path":"sounds/A_eA_eA_eAigu/A_eA_eA_eAigu.yy",},},
     {"id":{"name":"A_eA_eA_eSound","path":"sounds/A_eA_eA_eSound/A_eA_eA_eSound.yy",},},
     {"id":{"name":"BoomShoot","path":"sounds/BoomShoot/BoomShoot.yy",},},
@@ -63,6 +65,7 @@
     {"id":{"name":"MainMenuColdTimeTheme","path":"sounds/MainMenuColdTimeTheme/MainMenuColdTimeTheme.yy",},},
     {"id":{"name":"OuyeDamage","path":"sounds/OuyeDamage/OuyeDamage.yy",},},
     {"id":{"name":"PotionUseColdTimeOfficial","path":"sounds/PotionUseColdTimeOfficial/PotionUseColdTimeOfficial.yy",},},
+    {"id":{"name":"Room2MusicDoom","path":"sounds/Room2MusicDoom/Room2MusicDoom.yy",},},
     {"id":{"name":"WallHit","path":"sounds/WallHit/WallHit.yy",},},
     {"id":{"name":"BackgroundMainMenu","path":"sprites/BackgroundMainMenu/BackgroundMainMenu.yy",},},
     {"id":{"name":"LogoMainMenu","path":"sprites/LogoMainMenu/LogoMainMenu.yy",},},
