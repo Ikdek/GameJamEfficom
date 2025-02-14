@@ -27,4 +27,12 @@ if (_xinput == 0 && _yinput == 0) {
     isTimeStopped = false;
 }
 
-if (vie < 1) game_restart();
+if (vie == 1) shader_set(Shader1);
+
+if (vie > 1) shader_reset();
+
+if (vie < 1) 
+{
+	shader_reset()
+	game_restart();
+}
