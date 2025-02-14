@@ -1,4 +1,4 @@
-x = obj_main_character.x + 20; 
+x = obj_main_character.x + 20;
 y = obj_main_character.y + 30;
 
 var mouseX = mouse_x;
