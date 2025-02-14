@@ -1,7 +1,7 @@
 var player = obj_main_character;
 var range = 200;
 var move_speed = 0.5;
-var fire_rate = 70;
+var fire_rate = 50;
 
 var distance_to_player = point_distance(x, y, player.x, player.y);
 
