@@ -9,3 +9,4 @@ sprite_droite = spr_char_right_run;
 sprite_index = sprite_bas;
 
 vie = 3;  
+kills = 0;

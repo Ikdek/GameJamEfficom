@@ -56,5 +56,6 @@ if (vie_en2 <= 0) {
 	if (irandom(100) < 25) {
     instance_create_layer(x, y, "Instances_1", obj_heal);
 }
+	obj_main_character.kills += 1
 	instance_destroy();
 };
