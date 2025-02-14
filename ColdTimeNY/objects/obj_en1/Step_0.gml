@@ -57,5 +57,6 @@ if (vie_en1 <= 0) {
     instance_create_layer(x, y, "Instances_1", obj_heal);
 }
 	obj_main_character.kills += 1
-	instance_destroy();
+	instance_create_layer(x,y,"Instances_1", obj_blood)
+	instance_destroy()
 };

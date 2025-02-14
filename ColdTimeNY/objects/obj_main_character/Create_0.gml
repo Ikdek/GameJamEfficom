@@ -10,3 +10,9 @@ sprite_index = sprite_bas;
 
 vie = 3;  
 kills = 0;
+
+
+shader_reset()
+
+draw_self();
+
