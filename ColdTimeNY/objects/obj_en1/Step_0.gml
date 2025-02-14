@@ -52,4 +52,9 @@ if (place_meeting(x, y, obj_bullet)) {
     vie_en1 -= 1;
 }
 
-if (vie_en1 <= 0) instance_destroy();
+if (vie_en1 <= 0) {
+	if (irandom(100) < 25) {
+    instance_create_layer(x, y, "Instances_1", obj_heal);
+}
+	instance_destroy();
+};
