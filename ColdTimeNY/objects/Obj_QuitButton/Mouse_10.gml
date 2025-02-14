@@ -1,4 +1,4 @@
-if (!anim_done) { 
+if (!anim_done) {
     hovered = true; 
     image_speed = 1; 
 }
