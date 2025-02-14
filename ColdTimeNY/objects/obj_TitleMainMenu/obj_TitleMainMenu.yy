@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_menu",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_TitleMainMenu",
+  "eventList":[],
   "managed":true,
-  "name":"obj_menu",
+  "name":"obj_TitleMainMenu",
   "overriddenProperties":[],
   "parent":{
     "name":"Objets",
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"LogoMainMenu",
+    "path":"sprites/LogoMainMenu/LogoMainMenu.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
