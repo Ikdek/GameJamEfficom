@@ -1,7 +1,7 @@
 var player = obj_main_character;
-var range = 180;
-var move_speed = 1;
-var fire_rate = 80;
+var range = 200;
+var move_speed = 0.5;
+var fire_rate = 50;
 
 var distance_to_player = point_distance(x, y, player.x, player.y);
 
@@ -48,8 +48,15 @@ if (obj_main_character.isTimeStopped) {
 }
 
 if (place_meeting(x, y, obj_bullet)) {
-	audio_play_sound(A_eA_eA_eSound,1,false)
+	audio_play_sound(A_eA_eA_eAigu,1,false)
     vie_en2 -= 1;
 }
 
-if (vie_en2 <= 0) instance_destroy();
+if (vie_en2 <= 0) {
+	if (irandom(100) < 25) {
+    instance_create_layer(x, y, "Instances_1", obj_heal);
+}
+	obj_main_character.kills += 1
+	instance_create_layer(x,y,"Instances_1", obj_blood)
+	instance_destroy()
+};
