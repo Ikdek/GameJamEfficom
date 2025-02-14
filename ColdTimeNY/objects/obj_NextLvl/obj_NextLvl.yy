@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_game",
+  "%Name":"obj_NextLvl",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_main_character","path":"objects/obj_main_character/obj_main_character.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_game",
+  "name":"obj_NextLvl",
   "overriddenProperties":[],
   "parent":{
     "name":"Objets",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_DeathWall",
-    "path":"sprites/spr_DeathWall/spr_DeathWall.yy",
+    "name":"spr_NextLvl",
+    "path":"sprites/spr_NextLvl/spr_NextLvl.yy",
   },
   "spriteMaskId":null,
   "visible":true,
